@@ -1,1 +1,18 @@
+project_name: logistics_ocr_evaluation
+dataset_version: v2
 
+evaluation_type: ocr_extraction
+
+include_headers: true
+include_tables: true
+include_key_value_pairs: true
+
+run_classification_eval: true
+run_splicing_check: false
+
+confidence_threshold: 0.85
+
+export_metrics_report: true
+generate_confusion_matrix: true
+
+cloud_project_path: cloud-storage/logistics-ocr-v2
