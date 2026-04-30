@@ -1,1 +1,6 @@
-
+document_id,invoice_number,currency,total_amount,date,shipper
+DOC001,INV2045,USO,125O,2026/04/10,DHL Logistics
+DOC002,INV-2046,EUR,980,2026-04-11,Fedex Express
+DOC003,INV2047,USD,1540,2026/04/12,BlueDart
+DOC004,INV-2048,AED,2100,2026-04-13,Aramex
+DOC005,INV2049,USD,860,2026/04/14,UPS SupplyChain
