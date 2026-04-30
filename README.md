@@ -34,7 +34,7 @@ QA Analysis & Reporting
 ```
 # Workflow Architecture
 
-![ML Evaluation Workflow](workflow-diagrams/ml_evaluation_pipeline_main_workflow_page-0001.png)
+![ML Evaluation Workflow](workflow-diagrams/ml_evaluation_pipeline_main_workflow_page-0001.jpg)
 ---
 
 # Core Areas Covered
