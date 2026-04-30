@@ -32,7 +32,9 @@ Metrics Generation
       ↓
 QA Analysis & Reporting
 ```
+# Workflow Architecture
 
+![ML Evaluation Workflow](workflow-diagrams/ml_evaluation_pipeline_main_workflow_page-0001.png)
 ---
 
 # Core Areas Covered
@@ -108,6 +110,77 @@ cloud-workflow/
 - Annotation quality review
 - Model prediction analysis
 - ML workflow operations
+
+------
+
+# Evaluation Metrics
+
+This project includes evaluation workflows for:
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- OCR extraction quality
+- Annotation consistency validation
+- Prediction mismatch analysis
+- Classification evaluation
+
+---
+
+# Model Evaluation Workflow
+
+The repository simulates comparison between:
+- Model V1 (baseline OCR extraction model)
+- Model V2 (improved fine-tuned extraction model)
+
+Predictions are evaluated against ground truth datasets to analyze:
+- extraction accuracy
+- formatting consistency
+- OCR normalization quality
+- annotation-related performance impact
+
+---
+
+# Sample Evaluation Workflow
+
+```text
+Ground Truth Dataset
+        ↓
+Model V1 Predictions
+        ↓
+Model V2 Predictions
+        ↓
+Prediction Comparison
+        ↓
+Metrics Calculation
+        ↓
+Mismatch Analysis
+        ↓
+QA Validation
+        ↓
+Final Evaluation Report
+```
+
+---
+
+# Key Evaluation Features
+
+- OCR extraction comparison
+- Prediction mismatch analysis
+- Annotation quality validation
+- Metrics-based model comparison
+- YAML-based evaluation configuration
+- Simulated cloud workflow handling
+- Structured QA review process
+
+---
+
+# Disclaimer
+
+This repository is a simulated portfolio project designed to demonstrate realistic ML evaluation workflows, annotation QA operations, and OCR evaluation processes inspired by production-oriented AI data operations environments.
+
+No confidential production systems, proprietary pipelines, or customer data are included.
 
 ---
 ⭐ Focused on AI data quality, ML evaluation operations, and annotation QA workflows.
