@@ -88,17 +88,19 @@ The repository focuses on operational understanding rather than model training i
 
 # Repository Structure
 
-```text
-dataset/
-evaluation-configs/
-evaluation-scripts/
-metrics-analysis/
-annotation-qa/
-workflow-diagrams/
-sample-reports/
-screenshots/
-cloud-workflow/
-```
+# Project Navigation
+
+| Section | Description |
+|---|---|
+| dataset | Ground truth and model prediction datasets |
+| evaluation-configs | YAML evaluation configuration files |
+| evaluation-scripts | Model evaluation and comparison scripts |
+| metrics-analysis | Metrics reports and evaluation summaries |
+| annotation-qa | Annotation quality analysis and QA review |
+| workflow-diagrams | End-to-end workflow architecture |
+| sample-reports | Final evaluation comparison reports |
+| cloud-workflow | Simulated cloud project structure |
+| screenshots | Evaluation workflow screenshots |
 
 ---
 
