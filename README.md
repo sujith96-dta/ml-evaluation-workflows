@@ -1,7 +1,9 @@
-![Python](https://img.shields.io/badge/Python-Evaluation-blue)
-![OCR](https://img.shields.io/badge/OCR-Evaluation-green)
+![Annotation](https://img.shields.io/badge/Annotation-Workflows-blue)
+![Data Operations](https://img.shields.io/badge/Data-Operations-green)
 ![ML QA](https://img.shields.io/badge/ML-QA-orange)
-![Workflow](https://img.shields.io/badge/Workflow-Orchestration-purple)
+![OCR Validation](https://img.shields.io/badge/OCR-Validation-red)
+![Python](https://img.shields.io/badge/Python-Evaluation-purple)
+
 # ML Evaluation Workflows & Annotation QA
 
 ## Overview
@@ -96,15 +98,15 @@ The repository focuses on operational understanding rather than model training i
 
 | Section | Description |
 |---|---|
-| dataset | Ground truth and model prediction datasets |
-| evaluation-configs | YAML evaluation configuration files |
-| evaluation-scripts | Model evaluation and comparison scripts |
-| metrics-analysis | Metrics reports and evaluation summaries |
-| annotation-qa | Annotation quality analysis and QA review |
-| workflow-diagrams | End-to-end workflow architecture |
-| sample-reports | Final evaluation comparison reports |
-| cloud-workflow | Simulated cloud project structure |
-| screenshots | Evaluation workflow screenshots |
+| [dataset](./dataset) | Ground truth and model prediction datasets |
+| [evaluation-configs](./evaluation-configs) | YAML evaluation configuration files |
+| [evaluation-scripts](./evaluation-scripts) | Model evaluation and comparison scripts |
+| [metrics-analysis](./metrics-analysis) | Metrics reports and evaluation summaries |
+| [annotation-qa](./annotation-qa) | Annotation quality analysis and QA review |
+| [workflow-diagrams](./workflow-diagrams) | End-to-end workflow architecture |
+| [sample-reports](./sample-reports) | Final evaluation comparison reports |
+| [cloud-workflow](./cloud-workflow) | Simulated cloud project structure |
+| [screenshots](./screenshots) | Evaluation workflow screenshots |
 
 ---
 
