@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-Evaluation-blue)
+![OCR](https://img.shields.io/badge/OCR-Evaluation-green)
+![ML QA](https://img.shields.io/badge/ML-QA-orange)
+![Workflow](https://img.shields.io/badge/Workflow-Orchestration-purple)
 # ML Evaluation Workflows & Annotation QA
 
 ## Overview
@@ -134,7 +138,7 @@ This project includes evaluation workflows for:
 
 The repository simulates comparison between:
 - Model V1 (baseline OCR extraction model)
-- Model V2 (improved fine-tuned extraction model)
+- Model V2 (improved extraction model)
 
 Predictions are evaluated against ground truth datasets to analyze:
 - extraction accuracy
